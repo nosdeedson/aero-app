@@ -6,6 +6,7 @@ import { BotaoRadio } from "./botaoRadio";
 import { CampoTexto } from "./campoTexto";
 import { Botao } from "./botao.jsx";
 import { Check } from "./check";
+import { Combo } from "./combo.jsx";
 
 export const Inicial = (props) => {
 
@@ -31,8 +32,8 @@ export const Inicial = (props) => {
                         <div style={{ border: 'solid 0.3px', margin: '2%', padding: '2%', borderRadius: '10px', borderColor: 'GrayText' }}>
                             <Grid>
                                 <h1>Itinerário</h1>
-                                <CampoTexto campo="Origem" />
-                                <CampoTexto campo="Destino" />
+                                <Combo textoLabel="Origem"></Combo>
+                                <Combo textoLabel="Destino"></Combo>
                             </Grid>
                         </div>
                     </Container>

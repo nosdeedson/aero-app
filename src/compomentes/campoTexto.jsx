@@ -9,6 +9,6 @@ const style = {
 export const CampoTexto = (props) =>{
     
     return(
-        <TextField style={style}  required id="origem" label={props.campo}  />
+        <TextField style={style}  required id={props.campo} label={props.campo}  />
     )
 }
