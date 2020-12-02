@@ -7,6 +7,8 @@ import { CampoTexto } from "./campoTexto";
 import { Botao } from "./botao.jsx";
 import { Check } from "./check";
 import { Combo } from "./combo.jsx";
+import { Data } from "./data";
+
 
 export const Inicial = (props) => {
 
@@ -41,8 +43,8 @@ export const Inicial = (props) => {
                         <div style={{ border: 'solid 0.3px', margin: '2%', padding: '2%', borderRadius: '10px', borderColor: 'GrayText' }}>
                             <Grid>
                             <h1>Datas</h1>
-                            <CampoTexto campo="Data Ida" />
-                            <CampoTexto campo="Data Volta" />
+                            <Data  />
+                            <Data  />
                             <Check></Check>
                             </Grid>
                         </div>
