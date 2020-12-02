@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
-import { Grid } from "@material-ui/core";
+import Grid from '@material-ui/core/Grid';
+
 
 import { BotaoRadio } from "./botaoRadio";
 import { CampoTexto } from "./campoTexto";
@@ -43,8 +44,8 @@ export const Inicial = (props) => {
                         <div style={{ border: 'solid 0.3px', margin: '2%', padding: '2%', borderRadius: '10px', borderColor: 'GrayText' }}>
                             <Grid>
                             <h1>Datas</h1>
-                            <Data  />
-                            <Data  />
+                            <Data nome="Ida" />
+                            <Data nome="Volta"/>
                             <Check></Check>
                             </Grid>
                         </div>
